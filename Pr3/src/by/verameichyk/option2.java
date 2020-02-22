@@ -2,10 +2,10 @@ package by.verameichyk;
 
 import java.util.Scanner;
 
-public class Main {
+public class option2 {
 
-    public static void main(String[] args) {    // можно было через if (((x - 7) + 5) % 5 = 0), но тогда теряются
-        int i;                                  // дробные и отрицательные варианты чисел (в условаии не уточнено), поэтому решил строками
+    public static void main(String[] args) {    
+        int i;
         String str;
         char a;
         System.out.print("Введите число ");
