@@ -1,10 +1,14 @@
 package by.verameichyk;
 
+import  java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
         int x;
-        x = 1245;
+        System.out.print("Введите сумму ");
+        x = scan.nextInt();
         String str;
         if (x % 10  == 1 && x % 100 != 11 && x != 11) {
             str = "ь";
